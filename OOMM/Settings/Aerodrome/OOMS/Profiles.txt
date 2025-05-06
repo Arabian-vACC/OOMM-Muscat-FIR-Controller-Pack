@@ -3,8 +3,24 @@ PROFILE:<INITIALS>_OBS:275:0
 ATIS2:Arabian vACC Observer
 ATIS3:vACC Information - arabian-vacc.com
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
-PROFILE:OMBY_I_TWR:50:4
-ATIS2:"Sir Bani Yas Information"
+PROFILE:OOMS_1_TWR:50:4
+ATIS2:"Muscat Tower" - DCL [OOMS]
 ATIS3:Airport Information - vats.im/arb/airports
+ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
+PROFILE:OOMS_2_TWR:50:4
+ATIS2:"Muscat Tower" - DCL [OOMS]
+ATIS3:Airport Information - vats.im/arb/airports
+ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
+PROFILE:OOMS_1_GND:20:3
+ATIS2:"Muscat Ground" - DCL [OOMS]
+ATIS3:Airport Information - vats.im/arb/information
+ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
+PROFILE:OOMS_2_GND:20:3
+ATIS2:"Muscat Ground" - DCL [OOMS]
+ATIS3:Airport Information - vats.im/arb/information
+ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
+PROFILE:OOMS_DEL:20:2
+ATIS2:"Muscat Clearance Delivery" - DCL [OOMS]
+ATIS3:Airport Information - vats.im/arb/information
 ATIS4:Give us Feedback (and Karak Chai) - vats.im/arb/feedback
 END
