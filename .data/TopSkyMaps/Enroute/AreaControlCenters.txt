@@ -1,4 +1,4 @@
-// TopSky MUSCAT (OOMM) - Area Control Centers
+// TopSky Muscat (OOMM) - Area Control Centers
 MAP:ACC MUSCAT FIR
 FOLDER:AREA CONTROL CENTERS (ACC)
 COLOR:ASP_FIR
