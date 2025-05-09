@@ -1,52 +1,38 @@
-// File created for the Arabian vACC - U.A.E FIR (OMAE)
+// File created for the Arabian vACC - Muscat FIR (OOMM)
 // Developed and maintained by the Arabian vACC Operations Department
 //
 // To be used on the VATSIM Network only
 
-// 4001 to 4077: Muscat & Salalah Primary
-// 4701 to 4777: Domestic Squawk + Transit squawk
-// 7301 to 7377: Domestic Squawk
+// Muscat FIR Transit
+RANGE:3501:3577
+NOTADEP:OO
+NOTADES:OO
 
-// Muscat & Salalah Departure Squawk
+// Muscat FIR Arrivals
+RANGE:6500:6577
+ADES:OO
+
+// Muscat FIR International Departures Squawk
 RANGE:4001:4077
-ADEP:OOMS:OOSA:OO
-NOTADES:00
+ADEP:OO
+NOTADES:OO
 IFR
 
-// Muscat & Salalah Departure Squawk
+// Muscat FIR International Departures Squawk
 RANGE:4701:4777
-ADEP:OOMS:OOSA:OO
-NOTADES:00
+ADEP:OO
+NOTADES:OO
 SECONDARY
 IFR
 
-// Muscat Domestic Squawk
-RANGE:4701:4777
-ADEP:OOMS
+// Muscat FIR Domestic Squawk
+RANGE:1201:1277
+ADEP:OO
 ADES:OO
+
+// Muscat FIR Domestic Squawk
+RANGE:4601:4677
+ADEP:OO
+ADES:OO
+SECONDARY
 IFR
-
-// Salalah Domestic Squawk
-RANGE:7301:7377
-ADEP:OOSA
-ADES:OO
-IFR
-
-// Muscat Domestic Squawk VFR
-RANGE:4701:4777
-ADEP:OOMS
-ADES:OO
-
-// Salalah Domestic Squawk VFR
-RANGE:7301:7377
-ADEP:OOSA
-ADES:OO
-
-// Area Control Center Arrivals
-RANGE:6501:6577
-ADES:OO
-
-// Area Control Center Transit
-RANGE:4701:4777
-NOTADEP:OO
-NOTADES:OO
