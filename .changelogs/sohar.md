@@ -95,3 +95,9 @@ Refer OOSH AD 2.18 - ATS COMMUNICATION FACILITIES.
 23.6.1.6.2 Maintain a listening watch on 118.725 MHz and make regular broadcasts regarding position, altitude and intentions; and,
 
 23.6.1.6.3 Report when clear of the Suhar ATZ.
+
+
+
+VFR REPORTING POINTS:
+COPPER 	N241830 E0562524 	OOSH
+OMGRIT 	N241710 E0562552 	OOSH
