@@ -3,41 +3,50 @@
 //
 // To be used on the VATSIM Network only
 
-// Abu Dhabi & Sharjah Departure Squawk
-RANGE:3401:3477
-ADEP:OMAA:OMAD:OMAL:OMFJ:OMSJ
-NOTADES:OM
+// 4001 to 4077: Muscat & Salalah Primary
+// 4701 to 4777: Domestic Squawk + Transit squawk
+// 7301 to 7377: Domestic Squawk
 
-// Abu Dhabi & Sharjah Departure Squawk
-RANGE:1701:1777
-ADEP:OMAA:OMAD:OMAL:OMFJ:OMRK:OMSJ
-NOTADES:OM
+// Muscat & Salalah Departure Squawk
+RANGE:4001:4077
+ADEP:OOMS:OOSA:OO
+NOTADES:00
+IFR
 
-// Abu Dhabi & Sharjah Domestic Squawk
-RANGE:6101:6177
-ADEP:OMAA:OMSJ:OMAD:OMFJ
-ADES:OM
+// Muscat & Salalah Departure Squawk
+RANGE:4701:4777
+ADEP:OOMS:OOSA:OO
+NOTADES:00
+SECONDARY
+IFR
 
-// Dubai & Al-Maktoum Departure Squawk
-RANGE:0501:0577
-ADEP:OMDB:OMDW
-NOTADES:OM
+// Muscat Domestic Squawk
+RANGE:4701:4777
+ADEP:OOMS
+ADES:OO
+IFR
 
-// Dubai & Al-Maktoum Departure Squawk
-RANGE:6201:6277
-ADEP:OMDB:OMDW
-NOTADES:OM
+// Salalah Domestic Squawk
+RANGE:7301:7377
+ADEP:OOSA
+ADES:OO
+IFR
 
-// Dubai & Al-Maktoum Domestic Squawk
-RANGE:0601:0677
-ADEP:OMDB:OMDW:OMRK:OMAL
-ADES:OM
+// Muscat Domestic Squawk VFR
+RANGE:4701:4777
+ADEP:OOMS
+ADES:OO
+
+// Salalah Domestic Squawk VFR
+RANGE:7301:7377
+ADEP:OOSA
+ADES:OO
 
 // Area Control Center Arrivals
-RANGE:6001:6077
-ADES:OM
+RANGE:6501:6577
+ADES:OO
 
 // Area Control Center Transit
-RANGE:1701:1777
-NOTADEP:OM
-NOTADES:OM
+RANGE:4701:4777
+NOTADEP:OO
+NOTADES:OO

@@ -1,4 +1,4 @@
-// File created for the Arabian vACC - U.A.E FIR (OMAE)
+// File created for the Arabian vACC - Muscat FIR (OOMM)
 // Developed and maintained by the Arabian vACC Operations Department
 //
 // To be used on the VATSIM Network only
@@ -91,8 +91,8 @@ Malrt_Irregular=IRR
 
 Airspace_C_Flag=OM
 Airspace_No_DUPE_Codes=7000,2000,2200,1200
-Airspace_SIGMET_Areas=OMAE
-Airspace_NOTAM_Add=OMAE
+Airspace_SIGMET_Areas=OOMM
+Airspace_NOTAM_Add=OOMM
 Airspace_ASSR_Type=2
 Airspace_ASSR_AutoAssign_Type=1
 Airspace_AOR_Airports=OM
