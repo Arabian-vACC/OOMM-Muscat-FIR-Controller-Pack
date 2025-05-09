@@ -113,16 +113,17 @@ RwyAppLines_Auto=0
 
 // Colors
 Color_Active_Map=0,176,73
-Color_Active_Map_Type_1=87,87,164
-Color_Active_Map_Type_2=80,162,74
-Color_Active_Map_Type_3=179,180,180
-Color_Active_Map_Type_4=200,53,18
-Color_Active_Map_Type_5=198,174,58
-Color_Active_Map_Type_7=69,96,247
+Color_Active_Map_Type_1=181,20,20
+Color_Active_Map_Type_2=181,20,20
+Color_Active_Map_Type_3=181,20,20
+Color_Active_Map_Type_4=181,20,20
+Color_Active_Map_Type_5=181,20,20
+Color_Active_Map_Type_7=181,20,20
+Color_Active_Map_Type_8=181,20,20
 Color_Active_RD_Map=0,187,74
 Color_Active_RD_Infill_Map=108,120,160
 Color_Active_Sector=52,58,62
-Color_Active_Text_Map=0,255,104
+Color_Active_Text_Map=74,74,74
 Color_AIW_Intrusion=255,152,0
 Color_Arm=97,97,97
 Color_Assumed=36,255,84
