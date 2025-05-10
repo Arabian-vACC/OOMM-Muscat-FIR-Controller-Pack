@@ -1,43 +1,38 @@
-// File created for the Arabian vACC - U.A.E FIR (OMAE)
+// File created for the Arabian vACC - Muscat FIR (OOMM)
 // Developed and maintained by the Arabian vACC Operations Department
 //
 // To be used on the VATSIM Network only
 
-// Abu Dhabi & Sharjah Departure Squawk
-RANGE:3401:3477
-ADEP:OMAA:OMAD:OMAL:OMFJ:OMSJ
-NOTADES:OM
+// Muscat FIR Transit
+RANGE:3501:3577
+NOTADEP:OO
+NOTADES:OO
 
-// Abu Dhabi & Sharjah Departure Squawk
-RANGE:1701:1777
-ADEP:OMAA:OMAD:OMAL:OMFJ:OMRK:OMSJ
-NOTADES:OM
+// Muscat FIR Arrivals
+RANGE:6500:6577
+ADES:OO
 
-// Abu Dhabi & Sharjah Domestic Squawk
-RANGE:6101:6177
-ADEP:OMAA:OMSJ:OMAD:OMFJ
-ADES:OM
+// Muscat FIR International Departures Squawk
+RANGE:4001:4077
+ADEP:OO
+NOTADES:OO
+IFR
 
-// Dubai & Al-Maktoum Departure Squawk
-RANGE:0501:0577
-ADEP:OMDB:OMDW
-NOTADES:OM
+// Muscat FIR International Departures Squawk
+RANGE:4701:4777
+ADEP:OO
+NOTADES:OO
+SECONDARY
+IFR
 
-// Dubai & Al-Maktoum Departure Squawk
-RANGE:6201:6277
-ADEP:OMDB:OMDW
-NOTADES:OM
+// Muscat FIR Domestic Squawk
+RANGE:1201:1277
+ADEP:OO
+ADES:OO
 
-// Dubai & Al-Maktoum Domestic Squawk
-RANGE:0601:0677
-ADEP:OMDB:OMDW:OMRK:OMAL
-ADES:OM
-
-// Area Control Center Arrivals
-RANGE:6001:6077
-ADES:OM
-
-// Area Control Center Transit
-RANGE:1701:1777
-NOTADEP:OM
-NOTADES:OM
+// Muscat FIR Domestic Squawk
+RANGE:4601:4677
+ADEP:OO
+ADES:OO
+SECONDARY
+IFR

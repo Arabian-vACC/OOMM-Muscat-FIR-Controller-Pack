@@ -1,4 +1,4 @@
-// File created for the Arabian vACC - U.A.E FIR (OMAE)
+// File created for the Arabian vACC - Muscat FIR (OOMM)
 // Developed and maintained by the Arabian vACC Operations Department
 //
 // To be used on the VATSIM Network only
@@ -91,8 +91,8 @@ Malrt_Irregular=IRR
 
 Airspace_C_Flag=OM
 Airspace_No_DUPE_Codes=7000,2000,2200,1200
-Airspace_SIGMET_Areas=OMAE
-Airspace_NOTAM_Add=OMAE
+Airspace_SIGMET_Areas=OOMM
+Airspace_NOTAM_Add=OOMM
 Airspace_ASSR_Type=2
 Airspace_ASSR_AutoAssign_Type=1
 Airspace_AOR_Airports=OM
@@ -112,18 +112,21 @@ Track_PredictionLine=0
 RwyAppLines_Auto=0
 
 // Colors
-Color_Active_Map=181,20,20
-Color_Active_Map_Type_1=87,87,164
-Color_Active_Map_Type_2=80,162,74
-Color_Active_Map_Type_3=179,180,180
-Color_Active_Map_Type_4=200,53,18
-Color_Active_Map_Type_5=198,174,58
-Color_Active_RD_Infill_Map=90,90,90
+Color_Active_Map=0,176,73
+Color_Active_Map_Type_1=69,10,16
+Color_Active_Map_Type_2=69,10,16
+Color_Active_Map_Type_3=69,10,16
+Color_Active_Map_Type_4=69,10,16
+Color_Active_Map_Type_5=69,10,16
+Color_Active_Map_Type_7=69,10,16
+Color_Active_Map_Type_8=69,10,16
+Color_Active_RD_Map=0,187,74
+Color_Active_RD_Infill_Map=108,120,160
 Color_Active_Sector=52,58,62
-Color_Active_Text_Map=181,20,20
+Color_Active_Text_Map=74,74,74
 Color_AIW_Intrusion=255,152,0
 Color_Arm=97,97,97
-Color_Assumed=24,239,56
+Color_Assumed=36,255,84
 Color_Background=236,231,233
 Color_Border=51,51,52
 Color_BottomShadow=70,70,70
@@ -176,7 +179,7 @@ Color_Proposition=255,130,180
 Color_QDM=215,190,163
 Color_Redundant=210,181,147
 Color_Runway=255,255,255
-Color_Rwy_App_Line_Inuse=212,212,212
+Color_Rwy_App_Line_Inuse=0,213,87
 Color_Rwy_App_Line_Not_Inuse=90,90,165
 Color_Rwy_Locked=41,210,41
 Color_Selected=61,121,148
@@ -196,7 +199,7 @@ Color_SMW_Overlap_Box=207,207,207
 Color_SMW_Overshoot=239,224,41
 Color_System_Calculated_TOC=170,231,197
 Color_System_Calculated_TOD=170,231,197
-Color_Text_Notes=255,0,0
+Color_Text_Notes=200,200,200
 Color_TopShadow=155,158,159
 Color_Track_Default=210,210,210
 Color_Track_Highlight=0,165,219
@@ -228,7 +231,6 @@ Label_Field18_Flag_Items=STS/,newbie,NEWBIE,Newbie,beginner
 Label_Rev_Highlight_Delta_ETN=0
 Label_Alt_Digits=3
 Label_ASP_Digits=3
-
 Label_COP_MaxChars=3
-Label_FCOP_MaxChars=3
-Label_CFL_DefaultValue=1
+Label_FCOP_MaxChars=5
+Label_ADES_MaxChars=5

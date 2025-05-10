@@ -1,4 +1,4 @@
-// File created for the Arabian vACC - U.A.E FIR (OMAE)
+// File created for the Arabian vACC - Muscat FIR (OOMM)
 // Developed and maintained by the Arabian vACC Operations Department
 //
 // To be used on the VATSIM Network only
@@ -24,3 +24,16 @@ System_GUI_Scale_Windows=1.0
 //System_GUI_Scale_Windows=1.2
 
 // Setup
+[_CTR]
+Window_CARD=1,1600,825
+Window_LFUNCFP=1,1767,139
+Window_GenInfo=1,1638,40
+
+List_Sector_Concerned=1
+List_Sector_Informed=1
+List_Sector_Redundant=1
+
+WXR_Brightness=15
+WXR_Gain=200
+
+Setup_AutoSignIn=1

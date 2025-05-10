@@ -1,7 +1,0 @@
-// TopSky Muscat (OOMM) - Standard Instrument Departures (SIDs)
-MAP:ZZZZ - ZZZ - RWYZZ
-FOLDER:DEPARTURE PROCEDURES (NAV)
-ZOOM:25
-COLOR:NAV_SID
-STYLE:Solid:1
-ACTIVE:RWY:ARR:ZZZZ01:*:DEP:*:*
