@@ -24,16 +24,20 @@ System_GUI_Scale_Windows=1.0
 //System_GUI_Scale_Windows=1.2
 
 // Setup
-[_CTR]
-Window_CARD=1,1600,825
-Window_LFUNCFP=1,1767,139
-Window_GenInfo=1,1638,40
-
-List_Sector_Concerned=1
-List_Sector_Informed=1
-List_Sector_Redundant=1
-
-WXR_Brightness=15
-WXR_Gain=200
-
 Setup_AutoSignIn=1
+
+[_CTR]
+Track_HistoryDots=0
+Window_CPDLC_Current=1,1,210
+Window_CPDLC_Setting=1,1,250
+Window_MsgOut=1,1200,957
+
+[OOMS]
+Window_CARD_View_Notif=1
+Window_CARD_View_Future=0
+List_TfcMgmt1_ADES=OOMS
+
+[OOSA]
+Window_CARD_View_Notif=1
+Window_CARD_View_Future=0
+List_TfcMgmt1_ADES=OOMS
