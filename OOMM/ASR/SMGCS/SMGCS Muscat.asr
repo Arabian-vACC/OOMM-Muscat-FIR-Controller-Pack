@@ -1,0 +1,23 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:E:\Euroscope Sector Files\[OOMM] Muscat FIR AIRAC 2504\OOMM-Install-Package_20241128213729-241201-0001.sct
+SECTORTITLE:OOMM-Install-Package_20241128213729-241201-0001.sct
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:2500
+LEADER:5
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:263.00000
+TAGFAMILY:Matias (built in)
+WINDOWAREA:24.241064:55.573644:24.279584:55.652163
+PLUGIN:Ground Radar plugin:AirportElevation:865
+PLUGIN:Ground Radar plugin:AirportRadius:2.5
+PLUGIN:Ground Radar plugin:GroundMode:OOMS
+PLUGIN:TopSky plugin:NoDraw:1

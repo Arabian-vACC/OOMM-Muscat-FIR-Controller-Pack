@@ -1,6 +1,6 @@
 m_PlaySounds:1
 m_AssumeSlowAcAsStandby:1
-m_ShowAirspaceLines:1
+m_ShowAirspaceLines:0
 m_ShowRouteFixName:1
 m_ShowRouteETA:1
 m_ShowCalculatedHeading:1
@@ -44,7 +44,7 @@ SET_TransparentAcListBackground:1
 m_PutIncomingCoordinationToFirst:0
 m_AutoProxyMode:0
 m_TransparentAcListSelectedBackground:0
-m_TransparentDetailedTagBackground:0
+m_TransparentDetailedTagBackground:1
 m_TransparentDetailedTagSelectedItemBackground:0
 m_AllowDirectBeyondCOPX:0
 m_ShowAtisLetterInMETAR:1
@@ -119,7 +119,7 @@ m_MTCA_Floor:13000
 m_MTCA_AltitudeDifference:0
 m_MTCA_Distance:0.0
 m_UseIsectForScratchPad:1
-m_RotateRadarTargetSymbol:0
+m_RotateRadarTargetSymbol:1
 m_RotateFlightPlanTrackSymbol:0
 m_RubberHeadingRounding:5
 SqawkForSModeTransponder:
@@ -133,14 +133,12 @@ m_AutoAssumeOnGroundStateChangeButton:0
 m_ShowTrackMilesInRouteButton:1
 m_FilterOutSquawks:
 m_EquipmentsIcaoFormat:1
-m_DoNotShowMessageHandlersInProxy:0
-m_DoNotShowMessageHandlersInMainIfProxyConnected:0
 PILOTING
 m_Visible:0
 m_X:60
 m_Y:100
 m_LineNumber:6
-m_Resizable:1
+m_Resizable:0
 m_OrderingColumn:1
 m_HeaderOnly:0
 m_Column:*:4:0:90:41:0:1::::1:0.0

@@ -26,7 +26,7 @@ Runways:name:8421504:2.0:0:0:7
 Datablock:non concerned:6250335:3.0:0:0:7
 Datablock:notified:13487565:3.0:0:0:7
 Datablock:assumed:7143294:3.0:0:0:7
-Datablock:transfer to me initiated:33023:3.0:0:0:7
+Datablock:transfer to me initiated:12615935:3.0:0:0:7
 Datablock:redundant:4618430:3.0:0:0:7
 Datablock:information:65535:3.0:0:0:7
 Datablock:even flight level:16711808:3.0:0:0:7
@@ -55,12 +55,12 @@ Datablock:SCTA warning rectangle:3289855:3.0:0:0:7
 Datablock:SCTA CFL used warning rectangle:65535:3.0:0:0:7
 Datablock:SCTA warning leader:3289855:3.0:0:3:7
 Datablock:SCTA CFL used warning leader:65535:3.0:0:3:7
-Controller:normal:65535:3.0:0:0:7
-Controller:breaking:13408767:3.0:0:0:7
-Controller:timeout:4227327:3.0:0:0:7
+Controller:normal:16777215:3.0:0:0:7
+Controller:breaking:33023:3.0:0:0:7
+Controller:timeout:255:3.0:0:0:7
 Metar:normal:16777215:3.0:0:0:7
 Metar:modified:65535:3.0:0:0:7
-Metar:timeout:4227327:3.0:0:0:7
+Metar:timeout:255:3.0:0:0:7
 Other:wait:16777215:3.0:0:0:7
 Other:distance line:4408078:3.0:0:0:7
 Other:distance values:10197792:4.0:0:1:7
@@ -84,7 +84,7 @@ Other:manual taxi line:16777215:5.0:0:3:2
 Other:manual taxi line ends at predefined point:65535:5.0:0:3:2
 Other:predefined taxi line:65280:5.0:0:3:2
 Other:terminal taxi line:255:5.0:0:3:2
-Other:list header:11447982:3.0:0:0:7
+Other:list header:11447982:3.5:0:0:7
 Other:normal menu item:16777215:3.0:0:0:7
 Other:disabled menu item:8421504:3.0:0:0:7
 Transitions:transition grid:5263440:3.0:0:0:7

@@ -56,5 +56,3 @@ m_ShowTsVccsMiniControl:1
 ScenarioEditorX:427
 ScenarioEditorY:175
 m_ShowSTARControllers:1
-MessageLinesNumber:4
-BackgroundGrphicsInThread:1
