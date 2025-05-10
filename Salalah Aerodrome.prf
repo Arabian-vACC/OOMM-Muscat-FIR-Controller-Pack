@@ -1,0 +1,77 @@
+Settings	sector	\OOMM-Install-Package_20241128213729-241201-0001.sct
+Settings	SettingsfileSYMBOLOGY	\OOMM\Settings\Aerodrome\Symbology.txt
+Settings	SettingsfileVOICE	\OOMM\Settings\Aerodrome\OOSA\Voice.txt
+Settings	SettingsfilePROFILE	\OOMM\Settings\Aerodrome\OOSA\Profiles.txt
+Settings	SettingsfileTAGS	\OOMM\Settings\Tags.txt
+Settings	SettingsfileSIL	\OOMM\Settings\Aerodrome\Lists.txt
+Settings	SettingsfileSEL	\OOMM\Settings\Aerodrome\Lists.txt
+Settings	SettingsfileDEP	\OOMM\Settings\Aerodrome\Lists.txt
+Settings	SettingsfileARR	\OOMM\Settings\Aerodrome\Lists.txt
+Settings	SettingsfileFP	\OOMM\Settings\Aerodrome\Lists.txt
+Settings	SettingsfilePLUGINS	\OOMM\Settings\Aerodrome\Plugins.txt
+Settings	Settingsfile	\OOMM\Settings\Aerodrome\General.txt
+Settings	SettingsfileSCREEN	\OOMM\Settings\Aerodrome\Screen.txt
+Settings	SettingsfileCONFLICT	\OOMM\Settings\Aerodrome\Lists.txt
+Settings	SettingsfileVCCS	\OOMM\Settings\Aerodrome\VCCS.txt
+Settings	SettingsfilePILOTING	\OOMM\Settings\Aerodrome\General.txt
+Settings	SettingsfileORIGPLANE	\OOMM\Settings\Aerodrome\General.txt
+Settings	SettingsfileSTUP	\OOMM\Settings\Aerodrome\General.txt
+Settings	SettingsfileTAXIOUT	\OOMM\Settings\Aerodrome\General.txt
+Settings	SettingsfileTAKEOFF	\OOMM\Settings\Aerodrome\General.txt
+Settings	SettingsfileADCS	\OOMM\Settings\Aerodrome\General.txt
+Settings	SettingsfileTAXIIN	\OOMM\Settings\Aerodrome\General.txt
+Settings	alias	\OOMM\Alias\alias.txt
+Settings	airlines	\OOMM\ICAO\ICAO_Airlines.txt
+Settings	airports	\OOMM\ICAO\ICAO_Airports.txt
+Settings	aircraft	\OOMM\ICAO\ICAO_Aircraft.txt
+Settings	airportcoords	\OOMM\NavData\icao.txt
+Settings	airways	\OOMM\NavData\airway.txt
+ASRFastKeys	1	\OOMM\ASR\Aerodrome\Aerodrome Salalah.asr
+ASRFastKeys	2	\OOMM\ASR\SMGCS\SMGCS Salalah.asr
+RecentFiles	Recent1	\OOMM\ASR\Aerodrome\Aerodrome Salalah.asr
+RecentFiles	Recent2	\OOMM\ASR\SMGCS\SMGCS Salalah.asr
+TeamSpeakVccs	TsVccsMiniControlX	2014
+TeamSpeakVccs	TsVccsMiniControlY	515
+TeamSpeakVccs	Ts3DialogLeft	0
+TeamSpeakVccs	Ts3DialogTop	0
+TeamSpeakVccs	Ts3DialogRight	896
+TeamSpeakVccs	Ts3DialogBottom	561
+Sounds	Sound0	\OOMM\Sounds\handoff_request.wav
+Sounds	Sound1	\OOMM\Sounds\handoff_accept.wav
+Sounds	Sound2	\OOMM\Sounds\conflict_alert.wav
+Sounds	Sound3	\OOMM\Sounds\radio_message.wav
+Sounds	Sound4	\OOMM\Sounds\private_message.wav
+Sounds	Sound5	\OOMM\Sounds\atc_message.wav
+Sounds	Sound6	\OOMM\Sounds\broadcast_message.wav
+Sounds	Sound7	\OOMM\Sounds\landline_request.wav
+Sounds	Sound8	\OOMM\Sounds\supervisor_message.wav
+Sounds	Sound9	\OOMM\Sounds\connected.wav
+Sounds	Sound10	\OOMM\Sounds\disconnected.wav
+Sounds	Sound11	\OOMM\Sounds\ongoing_request.wav
+Sounds	Sound12	\OOMM\Sounds\ongoing_accepted.wav
+Sounds	Sound13	\OOMM\Sounds\ongoing_refused.wav
+Sounds	Sound14	\OOMM\Sounds\ongoing_manual.wav
+Sounds	Sound15	\OOMM\Sounds\new_atis.wav
+Sounds	Sound16	\OOMM\Sounds\handoff_refused.wav
+Sounds	Sound17	\OOMM\Sounds\pointout.wav
+Sounds	Sound18	\OOMM\Sounds\startup.wav
+Plugins	Plugin0	\OOMM\Plugins\Audio for VATSIM\AfvEuroScopeBridge.dll
+Plugins	Plugin1	\OOMM\Plugins\Discord Euroscope\DiscordEuroscope.dll
+Plugins	Plugin2	\OOMM\Plugins\TopSky Aerodrome\TopSky.dll
+Plugins	Plugin2Display0	Standard ES radar screen
+Plugins	Plugin3	\OOMM\Plugins\Ground Radar Plugin\GRplugin.dll
+Plugins	Plugin3Display0	Ground Radar display
+Plugins	Plugin4	\OOMM\Plugins\VFPC\VFPC.dll
+Plugins	Plugin5	\OOMM\Plugins\vSID\vSID.dll
+LastSession	connecttype	0
+LastSession	facility	0
+LastSession	rating	0
+LastSession	tovatsim	1
+LastSession	callsign	<Initials>_OBS
+LastSession	atis2	Arabian vACC Observer
+LastSession	atis3	vACC Information - arabian-vacc.com
+LastSession	atis4	Give us Feedback (and Karak Chai) - vats.im/arb/feedback
+LastSession	range	275
+LastSession	proxyserver	localhost
+LastSession	simdatapublish	0
+LastSession	atis_freq4	118000
