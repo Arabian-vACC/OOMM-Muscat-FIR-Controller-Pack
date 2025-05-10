@@ -1,455 +1,176 @@
 [
    {
-      "icao": "OMDB",
+      "icao": "OOMS",
       "sids": {
-         "RIDAP": [
+         "DAPOK": [
             {
                "direction": "EVEN",
-               "airways": [
-                  "M557"
-               ]
-            }
-         ],
-         "SENPA": [
-            {
-               "direction": "EVEN",
-               "airways": [
-                  "N571"
-               ]
-            }
-         ],
-         "NABIX": [
-            {
-               "direction": "EVEN",
-               "max_fl": 260,
                "destinations": [
-                  "OTHH",
-                  "OTBD",
-                  "OBBI"
+                  "OMDW",
+                  "OMDM"
                ],
                "airways": [
-                  "P699"
+                  "T508"
                ]
-            },
+            }
+         ],
+         "EMURU": [
             {
-               "direction": "EVEN",
+               "direction": "ODD",
                "destinations": [
-                  "OEDF"
+                  "VAGO",
+                  "VCBI",
+                  "VOBL",
+                  "VOCB",
+                  "VOCL",
+                  "VOCI",
+                  "VOML",
+                  "VOTR",
+                  "VOTV"
                ],
                "airways": [
-                  "P699"
+                  "P570",
+                  "M300"
                ]
             }
          ],
-         "EMERU": [
+         "MCT": [
             {
-               "direction": "EVEN",
-               "max_fl": 100,
                "destinations": [
-                  "OMAA",
-                  "OMAD"
-               ]
-            }
-         ],
-         "KUTLI": [
-            {
-               "direction": "EVEN",
-               "airways": [
-                  "L519"
-               ]
-            }
-         ],
-         "ANVIX": [
-            {
-               "direction": "ODD",
-               "max_fl": 250,
-               "destinations": [
-                  "OOMS"
+                  "OMDB",
+                  "OMSJ",
+                  "OMRK"
                ],
                "airways": [
-                  "L223"
+                  "T508"
                ]
             },
             {
-               "direction": "EVEN",
                "destinations": [
-                  "OMAL"
+                  "OOKB"
                ],
                "airways": [
-                  "R401"
-               ]
-            },
-            {
-               "direction": "ODD",
-               "airways": [
-                  "L223"
-               ]
-            },
-            {
-               "direction": "EVEN",
-               "airways": [
-                  "R401"
+                  "Z890"
                ]
             }
          ],
-         "IVURO": [
+         "MUSRU": [
             {
                "direction": "ODD",
+               "destinations": [
+                  "VAPO",
+                  "VOMM"
+               ],
                "airways": [
-                  "M677",
-                  "M428"
+                  "P574",
+                  "N881"
                ]
             }
          ],
-         "DAVMO": [
-            {
-               "direction": "EVEN",
-               "airways": [
-                  "M317"
-               ]
-            },
+         "SEVLA": [
             {
                "direction": "ODD",
+               "destinations": [
+                  "VABB",
+                  "VOHS"
+               ],
                "airways": [
-                  "M318"
+                  "Q250"
+               ]
+            }
+         ],
+         "SODEB": [
+            {
+               "direction": "ODD",
+               "destinations": [
+                  "VABB"
+               ],
+               "airways": [
+                  "G216"
                ]
             }
          ]
       }
    },
    {
-      "icao": "OMSJ",
+      "icao": "OOSA",
       "sids": {
-         "RIDAP": [
+         "DAXAM": [
             {
-               "direction": "EVEN",
-               "airways": [
-                  "M557"
-               ]
-            }
-         ],
-         "SENPA": [
-            {
-               "direction": "EVEN",
-               "airways": [
-                  "N571"
-               ]
-            }
-         ],
-         "NABIX": [
-            {
-               "direction": "EVEN",
-               "max_fl": 260,
+               "direction": "ODD",
                "destinations": [
-                  "OTHH",
-                  "OTBD",
-                  "OBBI"
-               ],
-               "airways": [
-                  "P699"
-               ]
-            },
-            {
-               "direction": "EVEN",
-               "destinations": [
-                  "OEDF"
-               ],
-               "airways": [
-                  "P699"
-               ]
-            }
-         ],
-         "EMERU": [
-            {
-               "direction": "EVEN",
-               "max_fl": 100,
-               "destinations": [
+                  "OOMS",
+                  "OOMN",
+                  "OMDB",
+                  "OMSJ",
+                  "OMDW",
+                  "OMRK",
+                  "OMFJ",
                   "OMAA",
-                  "OMAD"
-               ]
-            }
-         ],
-         "KUTLI": [
-            {
-               "direction": "EVEN",
-               "airways": [
-                  "L519"
-               ]
-            }
-         ],
-         "ANVIX": [
-            {
-               "direction": "ODD",
-               "max_fl": 250,
-               "destinations": [
-                  "OOMS"
+                  "OMAL",
+                  "OMAD",
+                  "OOSH"
                ],
                "airways": [
-                  "L223"
-               ]
-            },
-            {
-               "direction": "EVEN",
-               "destinations": [
-                  "OMAL"
-               ],
-               "airways": [
-                  "R401"
-               ]
-            },
-            {
-               "direction": "ODD",
-               "airways": [
-                  "L223"
-               ]
-            },
-            {
-               "direction": "EVEN",
-               "airways": [
-                  "R401"
-               ]
-            }
-         ],
-         "IVURO": [
-            {
-               "direction": "ODD",
-               "airways": [
-                  "M677",
-                  "M428"
-               ]
-            }
-         ],
-         "DAVMO": [
-            {
-               "direction": "EVEN",
-               "airways": [
-                  "M317"
-               ]
-            },
-            {
-               "direction": "ODD",
-               "airways": [
-                  "M318"
+                  "Y414"
                ]
             }
          ]
       }
    },
    {
-      "icao": "OMDW",
+      "icao": "OOSH",
       "sids": {
-         "RIDAP": [
+         "BOTAM": [
             {
-               "direction": "EVEN",
-               "airways": [
-                  "M557"
-               ]
-            }
-         ],
-         "SENPA": [
-            {
-               "direction": "EVEN",
-               "airways": [
-                  "N571"
-               ]
-            }
-         ],
-         "NABIX": [
-            {
-               "direction": "EVEN",
-               "max_fl": 260,
+               "direction": "ODD",
                "destinations": [
-                  "OTHH",
-                  "OTBD",
-                  "OBBI"
+                  "OOSA"
                ],
                "airways": [
-                  "P699"
+                  "Y855"
                ]
-            },
+            }  
+         ],
+         "VAXAS": [
             {
                "direction": "EVEN",
                "destinations": [
-                  "OEDF"
-               ],
-               "airways": [
-                  "P699"
+                  "OMDB",
+                  "OMSJ",
+                  "OMDW",
+                  "OMRK",
+                  "OMFJ"
                ]
-            }
+            }  
          ],
-         "EMERU": [
+         "ITRAX": [
             {
                "direction": "EVEN",
-               "max_fl": 100,
                "destinations": [
                   "OMAA",
-                  "OMAD"
-               ]
-            }
-         ],
-         "KUTLI": [
-            {
-               "direction": "EVEN",
-               "airways": [
-                  "L519"
-               ]
-            }
-         ],
-         "ANVIX": [
-            {
-               "direction": "ODD",
-               "max_fl": 250,
-               "destinations": [
-                  "OOMS"
-               ],
-               "airways": [
-                  "L223"
-               ]
-            },
-            {
-               "direction": "EVEN",
-               "destinations": [
+                  "OMAD",
                   "OMAL"
-               ],
-               "airways": [
-                  "R401"
-               ]
-            },
-            {
-               "direction": "ODD",
-               "airways": [
-                  "L223"
-               ]
-            },
-            {
-               "direction": "EVEN",
-               "airways": [
-                  "R401"
-               ]
-            }
-         ],
-         "NOLSU": [
-            {
-               "direction": "ODD",
-               "airways": [
-                  "N300",
-                  "M572"
-               ]
-            }
-         ],
-         "DAVMO": [
-            {
-               "direction": "EVEN",
-               "airways": [
-                  "M317"
-               ]
-            },
-            {
-               "direction": "ODD",
-               "airways": [
-                  "M318"
                ]
             }
          ]
       }
    },
-   {"icao": "OMAA",
+   {
+      "icao": "OOTH",
       "sids": {
-         "DAXIB": [
-            {
-               "direction": "EVEN",
-               "airways": [
-                  "Q563"
-               ]
-            }
-         ],
-         "BOSEV": [
-            {
-               "direction": "EVEN",
-               "max_fl": 260,
-               "destinations": [
-                  "OBBI"
-               ],
-               "airways": [
-                  "N563"
-               ]
-            },
-            {
-               "direction": "EVEN",
-               "destinations": [
-                  "OEDF"
-               ],
-               "airways": [
-                  "N563"
-               ]
-            },
-            {
-               "direction": "EVEN",
-               "airways": [
-                  "N563"
-               ]
-            }
-         ],
-         "MEKRI": [
-            {
-               "direction": "EVEN",
-               "max_fl": 260,
-               "destinations": [
-                  "OTHH",
-                  "OTBD"
-               ],
-               "airways": [
-                  "P899"
-               ]
-            },
-            {
-               "direction": "EVEN",
-               "airways": [
-                  "P899"
-               ]
-            }
-         ],
-         "ORNEL": [
+         "GAGLA": [
             {
                "direction": "ODD",
-               "max_fl": 210,
                "destinations": [
-                  "OOMS"
+                  "OMDB",
+                  "OMRK",
+                  "OMSJ"
                ],
                "airways": [
-                  "N685"
+                  "Y414"
                ]
-            },
-            {
-               "direction": "ODD",
-               "airways": [
-                  "T560"
-               ]
-            }
-         ],
-         "ATUDO": [
-            {
-               "direction": "EVEN",
-               "airways": [
-                  "M318"
-               ]
-            }
-         ],
-         "KANIP": [
-            {
-               "direction": "ODD",
-               "airways": [
-                  "N318"
-               ]
-            }
-         ],
-         "TULON": [
-            {
-               "direction": "ODD",
-               "airways": [
-                  "N318"
-               ]
-            }
+            }  
          ]
       }
    }
