@@ -1,8 +1,8 @@
 DisplayTypeName:Ground Radar display
 DisplayTypeNeedRadarContent:0
 DisplayTypeGeoReferenced:1
-SECTORFILE:E:\Euroscope Sector Files\[OOMM] Muscat FIR AIRAC 2504\OOMM-Install-Package_20241128213729-241201-0001.sct
-SECTORTITLE:OOMM-Install-Package_20241128213729-241201-0001.sct
+SECTORFILE:
+SECTORTITLE:
 SHOWC:1
 SHOWSB:0
 BELOW:0
