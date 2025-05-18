@@ -1,4 +1,4 @@
-![OOMM_github](https://github.com/user-attachments/assets/df9ffd38-f657-4543-aaba-0c16ef25db69)
+![arbvacc_oomm_github](https://github.com/user-attachments/assets/74da216b-0c98-4c35-888f-d3af13b31fe9)
 [![topsky-version](https://img.shields.io/badge/TopSky-2.5-blue.svg)](https://forum.vatsim-scandinavia.org/d/34-topsky-plugin-25/2)
 [![gr-version](https://img.shields.io/badge/Ground%20Radar-1.6.2-blue.svg)](https://forum.vatsim-scandinavia.org/d/136-ground-radar-plugin-16-beta-2)
 [![vfpc-version](https://img.shields.io/badge/vFPC-2.1.1-blue.svg)](https://github.com/hpeter2/VFPC)
