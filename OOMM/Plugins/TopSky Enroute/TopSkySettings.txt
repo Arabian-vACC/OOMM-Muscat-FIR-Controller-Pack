@@ -63,22 +63,7 @@ APW_Buffer_Vert_L_IFR=500
 APW_Buffer_Vert_L_VFR=200
 APW_ConflictCount=5
 
-MTCD=1
-MTCD_AHDG=1
-MTCD_RAM=1
-MTCD_Risks_Label=1
-MTCD_Floor=9500
-MTCD_Sep_Vert_U=1800
-MTCD_Sep_Vert_L=800
-MTCD_Sep_Lat=7
-MTCD_PLC_Time=10
-MTCD_Distance_Arr=20
-MTCD_Distance_Dep=20
-MTCD_Distance_Holding=20
-MTCD_Filter_Dep=3
-MTCD_Potential_Pred_Risk=1
-MTCD_DeAcknowledge=1
-MSAW_Buffer_IFR=300
+MTCD_DeAcknowledge=5
 
 FlightLeg_FontSize=10
 
@@ -223,12 +208,12 @@ Malrt_Misap=MAPP
 Malrt_Inbound_EST=EST
 Malrt_Irregular=IRR
 
-Airspace_P_Flag=OTHH
+Airspace_P_Flag=OOMS
 Airspace_No_DUPE_Codes=7000,2000,2200,1200
 Airspace_SIGMET_Areas=OOMM
 Airspace_NOTAM_Add=OOMM
 Airspace_ASSR_Type=2
-Airspace_ASSR_AutoAssign_Type=0
+Airspace_ASSR_AutoAssign_Type=1
 Airspace_AOR_Airports=OO
 Airspace_AOR_Positions=OO
 
