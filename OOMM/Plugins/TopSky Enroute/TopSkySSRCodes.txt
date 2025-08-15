@@ -10,6 +10,7 @@ NOTADES:OO
 
 // Muscat FIR Arrivals
 RANGE:6500:6577
+NOATDEP:00
 ADES:OO
 
 // Muscat FIR International Departures Squawk
