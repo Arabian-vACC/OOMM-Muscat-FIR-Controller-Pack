@@ -217,7 +217,7 @@ Airspace_No_DUPE_Codes=7000,2000,2200,1200
 Airspace_SIGMET_Areas=OOMM
 Airspace_NOTAM_Add=OOMM
 Airspace_ASSR_Type=2
-Airspace_ASSR_AutoAssign_Type=0
+Airspace_ASSR_AutoAssign_Type=1
 Airspace_AOR_Airports=OO
 Airspace_AOR_Positions=OO
 
