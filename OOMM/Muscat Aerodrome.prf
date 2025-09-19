@@ -1,4 +1,4 @@
-Settings	sector	\OOMM-Install-Package_20241128213729-241201-0001.sct
+Settings	sector	\OOMM-Developer-Package_20250919145753-241301-0005.sct
 Settings	SettingsfileSYMBOLOGY	\OOMM\Settings\Aerodrome\Symbology.txt
 Settings	SettingsfileVOICE	\OOMM\Settings\Aerodrome\OOMS\Voice.txt
 Settings	SettingsfilePROFILE	\OOMM\Settings\Aerodrome\OOMS\Profiles.txt
@@ -62,7 +62,7 @@ Plugins	Plugin2Display0	Standard ES radar screen
 Plugins	Plugin3	\OOMM\Plugins\Ground Radar Plugin\GRplugin.dll
 Plugins	Plugin3Display0	Ground Radar display
 Plugins	Plugin4	\OOMM\Plugins\VFPC\VFPC.dll
-Plugins	Plugin5	\OOMM\Plugins\vSID\vSID.dll
+Plugins	Plugin5	\OOMM\Plugins\vSID\vSID Plugin Dark\vSID.dll
 LastSession	connecttype	0
 LastSession	facility	0
 LastSession	rating	0
@@ -75,3 +75,5 @@ LastSession	range	275
 LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
 LastSession	atis_freq4	118000
+Plugins	Plugin5Display0	Ground Radar display
+Plugins	Plugin5Display1	Standard ES radar screen
