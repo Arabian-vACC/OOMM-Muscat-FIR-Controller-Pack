@@ -10,19 +10,16 @@ Track_HistoryDots_GND=3
 
 Color_Arrival=253,236,166
 Color_Departure=210,233,255
-Color_Background=19,20,21
 Color_RawVideo=255,255,0
 Color_Unknown=233,234,235
-Color_RunwayExtension=174,174,174
 Color_SelectedLabelFill_App=0,0,0
 Color_SelectedLabelFill_Gnd=0,0,0
-Color_RunwayExtension=72,73,75
 
 Window_APP_Scale=18
 Window_APP_AltFilter=6000
 Window_APP_Extensions=10
-Window_APP=1,1960,46,600,460
 
+Maps_URL=https://raw.githubusercontent.com/Arabian-vACC/OOMM-Muscat-FIR-Controller-Pack/main/OOMM/Plugins/Ground%20Radar%20Plugin/GRpluginSettings.txt
 Maps_FontSize=10
 GroundLabel_Font=EuroScope
 GroundLabel_FontSize=13
@@ -45,7 +42,8 @@ System_State_OnFreq=O/F
 System_State_DeIce=D/I
 System_State_StartUp=S/U
 System_State_Push=P/S
-System_State_Taxi=T/X
+System_State_Taxi_Out=T/X
+System_State_Taxi_In=T/X
 System_State_LineUp=L/U
 System_State_Depa=T/O
 
