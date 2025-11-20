@@ -1,0 +1,155 @@
+{
+  "OOSA": {
+    "elevation": 37,
+    "runways": "07,25",
+    "transAlt": 13000,
+    "maxInitialClimb": 10000,
+    "timeMode": false,
+    "timezone": "UTC",
+    "appSI": "MR",
+    "sids": {
+      "climbvia": true,
+      "DAXAM": {
+        "P": {
+          "1": {
+            "rwy": "07",
+            "initial": 10000,
+            "prio": 2
+          }
+        },
+        "T": {
+          "1": {
+            "rwy": "07",
+            "initial": 10000,
+            "prio": 2
+          }
+        },
+        "Q": {
+          "1": {
+            "rwy": "07",
+            "initial": 10000,
+            "prio": 1
+          }
+        },
+        "U": {
+          "1": {
+            "rwy": "07",
+            "initial": 10000,
+            "prio": 1
+          }
+        },
+        "R": {
+          "1": {
+            "rwy": "25",
+            "initial": 10000,
+            "prio": 2
+          }
+        },
+        "V": {
+          "1": {
+            "rwy": "25",
+            "initial": 10000,
+            "prio": 2
+          }
+        },
+        "S": {
+          "1": {
+            "rwy": "25",
+            "initial": 10000,
+            "prio": 1
+          }
+        }
+      },
+      "LADAR": {
+        "P": {
+          "1": {
+            "rwy": "07",
+            "initial": 10000,
+            "prio": 2
+          }
+        },
+        "Q": {
+          "1": {
+            "rwy": "07",
+            "initial": 10000,
+            "prio": 1
+          }
+        },
+        "R": {
+          "1": {
+            "rwy": "25",
+            "initial": 10000,
+            "prio": 2
+          }
+        },
+        "S": {
+          "1": {
+            "rwy": "25",
+            "initial": 10000,
+            "prio": 1
+          }
+        }
+      },
+      "MUTVA": {
+        "P": {
+          "1": {
+            "rwy": "07",
+            "initial": 10000,
+            "prio": 2
+          }
+        },
+        "Q": {
+          "1": {
+            "rwy": "07",
+            "initial": 10000,
+            "prio": 1
+          }
+        },
+        "R": {
+          "1": {
+            "rwy": "25",
+            "initial": 10000,
+            "prio": 2
+          }
+        },
+        "S": {
+          "1": {
+            "rwy": "25",
+            "initial": 10000,
+            "prio": 1
+          }
+        }
+      },
+      "SILTA": {
+        "P": {
+          "1": {
+            "rwy": "07",
+            "initial": 10000,
+            "prio": 2
+          }
+        },
+        "Q": {
+          "1": {
+            "rwy": "07",
+            "initial": 10000,
+            "prio": 1
+          }
+        },
+        "R": {
+          "1": {
+            "rwy": "25",
+            "initial": 10000,
+            "prio": 2
+          }
+        },
+        "S": {
+          "1": {
+            "rwy": "25",
+            "initial": 10000,
+            "prio": 1
+          }
+        }
+      }
+    }
+  }
+}
