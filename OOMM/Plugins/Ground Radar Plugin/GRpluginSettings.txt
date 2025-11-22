@@ -38,14 +38,14 @@ RawVideo_MaxHistory=0
 
 Equip_ModeS=WZLCISG
 
-System_State_OnFreq=O/F
-System_State_DeIce=D/I
-System_State_StartUp=S/U
-System_State_Push=P/S
-System_State_Taxi_Out=T/X
-System_State_Taxi_In=T/X
-System_State_LineUp=L/U
-System_State_Depa=T/O
+System_State_OnFreq=FREQ
+System_State_DeIce=DE-ICE
+System_State_StartUp=START-UP
+System_State_Push=PUSH
+System_State_Taxi_Out=TAXI
+System_State_Taxi_In=TAXI
+System_State_LineUp=LINE-UP
+System_State_Depa=TAKE-OFF
 
 System_RMCA_RWY_Closure=50
 System_RMCA_RWY_Closure_Info=20
