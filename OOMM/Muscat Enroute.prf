@@ -69,7 +69,7 @@ Plugins	Plugin4	\OOMM\Plugins\VFPC\VFPC.dll
 Plugins	Plugin5	\OOMM\Plugins\vSID\vSID Plugin Dark\vSID.dll
 Plugins	Plugin5Display0	Ground Radar display
 Plugins	Plugin5Display1	Standard ES radar screen
-Plugins	Plugin6	\OOMM\Plugins\RDFPlugin.dll
+Plugins	Plugin6 \OMAE\Plugins\RDFplugin\RDFPlugin.dll
 Plugins	Plugin6Display0	Standard ES radar screen
 LastSession	connecttype	0
 LastSession	facility	0
