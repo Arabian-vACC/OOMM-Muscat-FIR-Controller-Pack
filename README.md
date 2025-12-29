@@ -9,3 +9,5 @@
 
 # Muscat FIR (OOMM) Controller Pack
 Welcome to the GitHub repository for the Muscat FIR (OOMM) controller pack! Inside, you'll find all the "plug-and-play" files necessary to match your setup to be as realistic as the real-world on the VATSIM network. We ensure updates are available with each AIRAC cycle! Please note that this is for development and open collaborative purposes. For the latest release please download your files from [AeroNav - OOMM FIR](https://files.aero-nav.com/OOMM)!
+
+### \#ClearVision \#ClearMission

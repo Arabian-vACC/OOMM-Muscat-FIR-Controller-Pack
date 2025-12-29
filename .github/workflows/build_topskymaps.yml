@@ -7,6 +7,8 @@ on:
       - ".data/TopSkyMaps/**"
       - ".github/workflows/concatenate_topskymaps.py"
 
+  workflow_dispatch:
+
 permissions:
   contents: write
 
