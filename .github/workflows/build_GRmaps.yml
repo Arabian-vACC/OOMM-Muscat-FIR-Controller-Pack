@@ -6,7 +6,9 @@ on:
     paths:
       - ".data/GroundRadarPluginMaps/**"
       - ".github/workflows/concatenate_GRmaps.py"
-
+      
+  workflow_dispatch:
+  
 permissions:
   contents: write
 
