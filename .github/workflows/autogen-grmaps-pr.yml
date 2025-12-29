@@ -1,0 +1,49 @@
+name: Auto-generate GR Maps (PR)
+
+on:
+  pull_request_target:
+    branches: [ main ]
+    paths:
+      - ".data/GroundRadarPluginMaps/**"
+      - ".github/workflows/concatenate_GRmaps.py"
+
+permissions:
+  contents: write
+
+jobs:
+  autogen:
+    runs-on: ubuntu-latest
+    # Safety: don't run on forks
+    if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
+
+    steps:
+      - name: Checkout PR head branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Generate files
+        run: python .github/workflows/concatenate_GRmaps.py
+
+      - name: Commit & push back to PR (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            "OOMM/Plugins/Ground Radar Plugin/GRpluginMaps.txt" \
+            "OOMM/Plugins/Ground Radar Plugin/GRpluginStands.txt"
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update Ground Radar Plugin files"
+          git push
