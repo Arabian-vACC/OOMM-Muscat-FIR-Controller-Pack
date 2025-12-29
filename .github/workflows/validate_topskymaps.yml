@@ -1,17 +1,14 @@
-name: Build TopSkyMaps (main)
+name: Validate TopSkyMaps (PR)
 
 on:
-  push:
+  pull_request:
     branches: [ main ]
     paths:
       - ".data/TopSkyMaps/**"
       - ".github/workflows/concatenate_topskymaps.py"
 
-permissions:
-  contents: write
-
 jobs:
-  build:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -28,28 +25,20 @@ jobs:
       - name: Generate TopSkyMaps outputs
         run: python .github/workflows/concatenate_topskymaps.py
 
-      - name: Commit & push generated files (if changed)
+      - name: Ensure generated files are committed
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          git add \
-            "OOMM/Plugins/TopSky Aerodrome/TopSkyMaps.txt" \
-            "OOMM/Plugins/TopSky Terminal/TopSkyMaps.txt" \
-            "OOMM/Plugins/TopSky Enroute/TopSkyMaps.txt"
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-            exit 0
+          if [[ -n "$(git status --porcelain)" ]]; then
+            echo "❌ Generated TopSkyMaps files are out of date."
+            echo "Run: python .github/workflows/concatenate_topskymaps.py"
+            echo "Then commit the updated TopSkyMaps.txt files."
+            git status --porcelain
+            exit 1
           fi
 
-          git commit -m "Update TopSkyMaps files"
-          git push
-
-      - name: Upload artifacts
+      - name: Upload artifacts (optional)
         uses: actions/upload-artifact@v4
         with:
-          name: TopSkyMaps (main build)
+          name: TopSkyMaps (PR build)
           path: |
             OOMM/Plugins/TopSky Aerodrome/TopSkyMaps.txt
             OOMM/Plugins/TopSky Terminal/TopSkyMaps.txt
