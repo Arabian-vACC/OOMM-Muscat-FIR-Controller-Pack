@@ -1,23 +1,27 @@
-name: Build TopSkyMaps (main)
+name: Auto-generate TopSkyMaps (PR)
 
 on:
-  push:
+  pull_request_target:
     branches: [ main ]
     paths:
       - ".data/TopSkyMaps/**"
       - ".github/workflows/concatenate_topskymaps.py"
 
-  workflow_dispatch:
-
 permissions:
   contents: write
 
 jobs:
-  build:
+  autogen:
     runs-on: ubuntu-latest
+    # Safety: don't run on forks
+    if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
+
     steps:
-      - name: Checkout
+      - name: Checkout PR branch
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -51,7 +55,7 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: TopSkyMaps (main build)
+          name: TopSkyMaps (PR build)
           path: |
             OOMM/Plugins/TopSky Aerodrome/TopSkyMaps.txt
             OOMM/Plugins/TopSky Terminal/TopSkyMaps.txt
