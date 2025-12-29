@@ -1,48 +1,56 @@
-name: Build TopSkyMaps
+name: Build TopSkyMaps (main)
 
 on:
   push:
-    branches:
-      - main
+    branches: [ main ]
     paths:
-      - '.data/TopSkyMaps/**'
+      - ".data/TopSkyMaps/**"
+      - ".github/workflows/concatenate_topskymaps.py"
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: '3.x'
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
+      - name: Install deps
+        run: python -m pip install --upgrade pip
 
-    - name: Concatenate and clean files
-      run: |
-        python .github/workflows/concatenate_topskymaps.py
+      - name: Generate TopSkyMaps outputs
+        run: python .github/workflows/concatenate_topskymaps.py
 
-    - name: Commit changes
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add 'OOMM/Plugins/TopSky Aerodrome/TopSkyMaps.txt'
-        git add 'OOMM/Plugins/TopSky Terminal/TopSkyMaps.txt'
-        git add 'OOMM/Plugins/TopSky Enroute/TopSkyMaps.txt'
-        git commit -m 'Update TopSkyMaps files'
-        git push
+      - name: Commit & push generated files (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-    - name: Upload artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: Upload cleaned files
-        path: |
-          OOMM/Plugins/TopSky Aerodrome/TopSkyMaps.txt
-          OOMM/Plugins/TopSky Terminal/TopSkyMaps.txt
-          OOMM/Plugins/TopSky Enroute/TopSkyMaps.txt
+          git add \
+            "OOMM/Plugins/TopSky Aerodrome/TopSkyMaps.txt" \
+            "OOMM/Plugins/TopSky Terminal/TopSkyMaps.txt" \
+            "OOMM/Plugins/TopSky Enroute/TopSkyMaps.txt"
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update TopSkyMaps files"
+          git push
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: TopSkyMaps (main build)
+          path: |
+            OOMM/Plugins/TopSky Aerodrome/TopSkyMaps.txt
+            OOMM/Plugins/TopSky Terminal/TopSkyMaps.txt
+            OOMM/Plugins/TopSky Enroute/TopSkyMaps.txt
