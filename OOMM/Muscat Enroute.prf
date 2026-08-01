@@ -79,7 +79,7 @@ LastSession	callsign	<Initials>_OBS
 LastSession	atis2	Arabian vACC Observer
 LastSession	atis3	vACC Information - arabian-vacc.com
 LastSession	atis4	Give us Feedback (and Karak Chai) - vats.im/arb/feedback
-LastSession	range	275
+LastSession	range	600
 LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
 LastSession	atis_freq4	118000
